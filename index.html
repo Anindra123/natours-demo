@@ -6,44 +6,49 @@
     <title>Natours | Exciting tours for adventurous people</title>
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
-    />
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <!--Navigation-->
     <div class="navigation">
       <div class="navigation__background"></div>
       <nav class="navigation__nav">
         <ul class="navigation__list">
           <li class="navigation__item">
-            <a href="" class="navigation__link">01 about natours</a>
+            <a href class="navigation__link">01 about natours</a>
           </li>
           <li class="navigation__item">
-            <a href="" class="navigation__link">02 your benefits</a>
+            <a href class="navigation__link">02 your benefits</a>
           </li>
           <li class="navigation__item">
-            <a href="" class="navigation__link">03 popular tours</a>
+            <a href class="navigation__link">03 popular tours</a>
           </li>
           <li class="navigation__item">
-            <a href="" class="navigation__link">04 stories</a>
+            <a href class="navigation__link">04 stories</a>
           </li>
           <li class="navigation__item">
-            <a href="" class="navigation__link">05 book now</a>
+            <a href class="navigation__link">05 book now</a>
           </li>
         </ul>
       </nav>
     </div>
+    <!--Navigation-->
+
+    <!--hamburger-menu-button-->
     <a class="hamburger__btn" role="button">
       <span class="hamburger__bar">&nbsp;</span>
     </a>
+    <!--hamburger-menu-button-->
+
+    <!--hero section-->
     <header class="hero-section">
       <nav class="hero-section__nav">
         <div class="hero-section__brand_container">
           <img
             src="./public/img/logo-white.png"
             alt="logo-white"
-            class="hero-section__brand"
-          />
+            class="hero-section__brand" />
         </div>
       </nav>
       <div class="hero-section__content_container">
@@ -59,6 +64,86 @@
         </div>
       </div>
     </header>
+    <!--hero section-->
+
+    <main class="about-section">
+      <div class="about-section__title_container">
+        <h1 class="about-section__title">
+          Exciting Tour For adventurous people
+        </h1>
+      </div>
+      <div class="about-section__content_container">
+        <div class="about-section__left_container">
+          <div class="about-section__text_container">
+            <div class="about-section__description_title_container">
+              <h3 class="about-section__description_title">
+                You're going to fall in love with nature.
+              </h3>
+            </div>
+            <div class="about-section__description_container">
+              <p class="about-section__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                iaculis eros est, in dignissim nulla porttitor a. Phasellus sed
+                sollicitudin est, ut ultricies turpis. Ut odio justo, blandit ac
+                pulvinar non, condimentum quis lacus. Quisque eleifend, purus
+                vitae tempor dictum, tellus urna laoreet ex, eget bibendum urna
+                urna vel neque. Quisque in arcu malesuada, placerat erat vitae,
+                blandit augue. Duis sollicitudin dui orci, vitae auctor sem
+                convallis quis.
+              </p>
+            </div>
+          </div>
+          <div class="about-section__text_container">
+            <div class="about-section__description_title_container">
+              <h3 class="about-section__description_title">
+                Live adventures like you never have before.
+              </h3>
+            </div>
+            <div class="about-section__description_container">
+              <p class="about-section__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                iaculis eros est, in dignissim nulla porttitor a. Phasellus sed
+                sollicitudin est, ut ultricies turpis. Ut odio justo, blandit ac
+                pulvinar non, condimentum quis lacus.
+              </p>
+            </div>
+          </div>
+          <div class="about-section__button_container">
+            <a role="button" class="about-section__button">
+              Learn more →
+
+            </a>
+          </div>
+        </div>
+        <div class="about-section__right_container">
+          <div class="about-section__image_container ">
+            <img
+              srcset="./public/img/nat-1-1000px.jpg 1000w, ./public/img/nat-1-300px.jpg 300w"
+              sizes="(max-width:900px) 20vw,(max-width:600px) 30vw, 300px"
+              src="./public/img/nat-1-large.jpg"
+              class="about-section__image img-1"
+              alt="nat-1" />
+          </div>
+          <div class="about-section__image_container ">
+            <img
+              srcset=' ./public/img/nat-2-300px.jpg 300w, ./public/img/nat-2-1000px.jpg 1000w'
+              sizes="(max-width:900px) 20vw,(max-width:600px) 30vw, 300px"
+              src="./public/img/nat-2-large.jpg"
+              class="about-section__image img-2"
+              alt="nat-2" />
+          </div>
+          <div class="about-section__image_container img-3">
+            <img
+              srcset="./public/img/nat-3-300px.jpg 300w, ./public/img/nat-3-1000px.jpg 1000w"
+              sizes="(max-width:900px) 20vw,(max-width:600px) 30vw, 300px"
+              src="./public/img/nat-3-large.jpg"
+              class="about-section__image img-3"
+              alt="nat-3" />
+          </div>
+        </div>
+      </div>
+    </main>
+
     <script type="module" src="./scripts/nav.js"></script>
   </body>
 </html>
