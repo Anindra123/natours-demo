@@ -7,7 +7,8 @@
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/icon-style.css">
   </head>
   <body>
     <!--Navigation-->
@@ -66,11 +67,12 @@
     </header>
     <!--hero section-->
 
-    <main class="about-section">
+    <!--about section-->
+    <section class="about-section">
       <div class="about-section__title_container">
-        <h1 class="about-section__title">
-          Exciting Tour For adventurous people
-        </h1>
+        <h2 class="about-section__title secondary-heading">
+          Exciting Tours For adventurous people
+        </h2>
       </div>
       <div class="about-section__content_container">
         <div class="about-section__left_container">
@@ -116,33 +118,106 @@
           </div>
         </div>
         <div class="about-section__right_container">
-          <div class="about-section__image_container ">
-            <img
-              srcset="./public/img/nat-1-1000px.jpg 1000w, ./public/img/nat-1-300px.jpg 300w"
-              sizes="(max-width:900px) 20vw,(max-width:600px) 30vw, 300px"
-              src="./public/img/nat-1-large.jpg"
-              class="about-section__image img-1"
-              alt="nat-1" />
+          <img
+            srcset="./public/img/nat-1-1000px.jpg 1000w, ./public/img/nat-1-300px.jpg 300w"
+            sizes="(max-width:900px) 20vw,(max-width:600px) 30vw, 300px"
+            src="./public/img/nat-1-large.jpg"
+            class="about-section__image img-1"
+            alt="nat-1" />
+          <img
+            srcset=' ./public/img/nat-2-300px.jpg 300w, ./public/img/nat-2-1000px.jpg 1000w'
+            sizes="(max-width:900px) 20vw,(max-width:600px) 30vw, 300px"
+            src="./public/img/nat-2-large.jpg"
+            class="about-section__image img-2"
+            alt="nat-2" />
+          <img
+            srcset="./public/img/nat-3-300px.jpg 300w, ./public/img/nat-3-1000px.jpg 1000w"
+            sizes="(max-width:900px) 20vw,(max-width:600px) 30vw, 300px"
+            src="./public/img/nat-3-large.jpg"
+            class="about-section__image img-3"
+            alt="nat-3" />
+        </div>
+      </div>
+    </section>
+    <!--about section-->
+
+    <!--feature section-->
+    <section class="feature-section">
+      <div class="feature-card__row">
+        <div class="feature-card">
+          <div class="feature-card__icon_container">
+            <i class="feature-card__icon icon-world"></i>
           </div>
-          <div class="about-section__image_container ">
-            <img
-              srcset=' ./public/img/nat-2-300px.jpg 300w, ./public/img/nat-2-1000px.jpg 1000w'
-              sizes="(max-width:900px) 20vw,(max-width:600px) 30vw, 300px"
-              src="./public/img/nat-2-large.jpg"
-              class="about-section__image img-2"
-              alt="nat-2" />
+          <div class="feature-card__title_container">
+            <h3 class="feature-card__title">Explore the world</h3>
           </div>
-          <div class="about-section__image_container img-3">
-            <img
-              srcset="./public/img/nat-3-300px.jpg 300w, ./public/img/nat-3-1000px.jpg 1000w"
-              sizes="(max-width:900px) 20vw,(max-width:600px) 30vw, 300px"
-              src="./public/img/nat-3-large.jpg"
-              class="about-section__image img-3"
-              alt="nat-3" />
+          <div class="feature-card__description_container">
+            <p class="feature-card__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+              iaculis eros est, in dignissim.
+            </p>
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon_container">
+            <i class="feature-card__icon icon-compass"></i>
+          </div>
+          <div class="feature-card__title_container">
+            <h3 class="feature-card__title">Meet Nature</h3>
+          </div>
+          <div class="feature-card__description_container">
+            <p class="feature-card__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+              iaculis eros est, in dignissim.
+            </p>
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon_container">
+            <i class="feature-card__icon icon-map"></i>
+          </div>
+          <div class="feature-card__title_container">
+            <h3 class="feature-card__title">Find your way</h3>
+          </div>
+          <div class="feature-card__description_container">
+            <p class="feature-card__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+              iaculis eros est, in dignissim.
+            </p>
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon_container">
+            <i class="feature-card__icon icon-heart"></i>
+          </div>
+          <div class="feature-card__title_container">
+            <h3 class="feature-card__title">Live a healthier life</h3>
+          </div>
+          <div class="feature-card__description_container">
+            <p class="feature-card__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+              iaculis eros est, in dignissim.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!--feature section-->
+
+    <section class="tour-section">
+      <div class="tour-section__heading_container">
+        <h2 class="tour-section__heading secondary-heading">Most popular
+          tours</h2>
+      </div>
+      <div class="tour-card__row">
+        <div class="tour-card">
+          <div class="tour-card-front">
+
           </div>
         </div>
       </div>
-    </main>
+    </section>
 
     <script type="module" src="./scripts/nav.js"></script>
   </body>
