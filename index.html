@@ -375,9 +375,55 @@
     </section>
     <!--stories section-->
 
+    <!--contact section-->
+
+    <section class="contact-section">
+
+    </section>
+
+    <!--footer section-->
+    <footer>
+      <div class="footer__logo_container">
+        <picture class="footer__logo">
+          <source
+            srcset="./public/img/logo-green-small-1x.png 1x, ./public/img/logo-green-small-2x.png 2x"
+            media="(max-width:600px)">
+          <img
+            srcset="./public/img/logo-green-1x.png 1x, ./public/img/logo-green-2x.png 2x"
+            media="(max-width:600px)"
+            src="./public/img/logo-green-2x.png" alt="footer logo">
+        </picture>
+      </div>
+      <div class="footer-content-container">
+        <div class="footer-nav-container">
+          <div class="footer-nav-list">
+            <a href="#" class="footer-nav">Company</a>
+            <a href="#" class="footer-nav">Contact us</a>
+            <a href="#"
+              class="footer-nav">carrers</a>
+            <a href="#" class="footer-nav">privacy</a>
+            <a href="#"
+              class="footer-nav">terms</a>
+          </div>
+        </div>
+        <div class="footer-copyright-container">
+          <div class="footer-copyright-text-container">
+            <p class="footer-copyright-text">
+              Developed by <a href="#" class="footer-copyright-link">Anindra Das
+                Bivas</a> as a part of learning advanced css
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+    <!--footer section-->
+
     <!--modal-->
-    <div class="modal" hidden>
+    <div class="modal">
       <div class="modal-container">
+        <a href="#" class="modal-toggle-btn modal-close-btn">×</a>
+
         <div class="modal-left-container">
           <div class="modal-image-container">
             <img class="modal-image" src="./public/img/nat-8.jpg" alt>
@@ -418,6 +464,7 @@
     </div>
     <!--modal-->
 
-    <script type="module" src="./scripts/nav.js"></script>
+    <script defer type="module" src="./scripts/nav.js"></script>
+    <script defer type="module" src="./scripts/modal.js"></script>
   </body>
 </html>
